@@ -1,11 +1,7 @@
 
 .body {
-    background: -moz-linear-gradient(45deg, #02e1ba 0%, #26c9f2 29%, #d911f2 66%, #ffa079 100%);
-    background: -webkit-linear-gradient(45deg, #02e1ba 0%,#26c9f2 29%,#d911f2 66%,#ffa079 100%);
-    background: linear-gradient(45deg, #02e1ba 0%,#26c9f2 29%,#d911f2 66%,#ffa079 100%);
+    background: linear-gradient(45deg, #a2d2ca 0%,#496269 29%,#4f4c4f 66%,#59382b 100%);
     background-size: 400% 400%;
-    -webkit-animation: Gradient 15s ease infinite;
-	-moz-animation: Gradient 15s ease infinite;
 	animation: Gradient 15s ease infinite;
 	min-height: calc(100vh - 2rem);
 	display: flex;
@@ -92,32 +88,29 @@
     transform: rotate(1turn); 
   } 
 }
-	.st0{display:none;}
-	.st1{display:inline;}
-	.st2{opacity:0.29;}
-	.st3{fill:#FFFFFF;}
-	.st4{clip-path:url(#SVGID_2_);fill:#FFFFFF;}
-	.st5{clip-path:url(#SVGID_4_);}
-	.st6{clip-path:url(#SVGID_6_);}
-	.st7{clip-path:url(#SVGID_8_);}
-	.st8{clip-path:url(#SVGID_10_);}
-	.st9{fill:none;}
-	.st10{clip-path:url(#SVGID_12_);}
-	.st11{opacity:0.7;}
-	.st12{clip-path:url(#SVGID_14_);}
-	.st13{opacity:0.2;}
-	.st14{clip-path:url(#SVGID_16_);}
-	.st15{opacity:0.3;fill:#FFFFFF;enable-background:new    ;
+
+.w25{
+	width: 300px;
 }
 
-.title-block{
-    position: absolute;
-    left: 50%;
-    top: 45%;
+.mainHead{
+	font-family: 'Merriweather', serif;
 }
-.title{
-    position: relative;
-    left: -50%;
-    color: #FFFFFF;
-    text-align: center;
+.body1{
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.about{
+	margin-left: 50%;
+}
+
+@media screen and (max-width: 685px) {
+	.mainHead{
+		font-size: 160%
+	}
+	.about{
+		margin-left: 30%;
+	}
 }

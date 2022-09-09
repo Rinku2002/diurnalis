@@ -1,19 +1,25 @@
 import React from 'react'
+import Desc from '../../components/desc/desc';
+// import Diurnalis from '../../images/Diurnalis.jpg';
 import './home.css'
-import Svg from './svgicon'
 
 function Home() {
   return (
     <>
     <div className="body">
-        <Svg/>
-        <div className='title-block'>
-            <div className='title display-1 fw-bolder text-dark'>
-                Diurnalis
+        <div className=''>
+            <div className=' fw-bolder text-light d-flex flex-column justify-content-center align-items-center'>
+                <h1 className='mainHead display-1 text-light'>TIMES OF VNRVJIET</h1>
+                <p className='h6 text-light about'> - A Diurnalis's Publication</p>
+                {/* <img className='w25 rounded rounded-circle' src={Diurnalis}/> */}
+                <div className='d-flex flex-row-reverse'>
+                </div>
             </div>
         </div>
     </div>
-    <h1>Hello</h1>
+    <div className='container d-flex align-items-center'>
+      <Desc/>
+    </div>
     </>
   )
 }

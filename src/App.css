@@ -1,0 +1,21 @@
+.arrow{
+	position: fixed;
+	bottom: 5px;
+	left: 50%;
+}
+.arrowIcon{
+	font-size: 50px;
+	color: white;
+	position: relative;
+	left: -50%;
+	border-radius: 50%;
+	padding: 5px;   
+}
+@media only screen and (max-width: 475px) {
+    .arrow{
+		left: 0%;
+	}
+	.arrowIcon{
+		left: 15%;
+	}
+}

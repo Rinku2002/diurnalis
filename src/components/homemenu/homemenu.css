@@ -35,10 +35,6 @@
     border-radius: 50%;
     font-size: 20px;
     cursor: pointer;
-    /*color: #fff;*/
-    /*background: linear-gradient(90deg, #f92c78, #4114a1);*/
-    /* background: linear-gradient(375deg, #1cc7d0, #2ede98); */
-   /* background: linear-gradient(-45deg, #e3eefe 0%, #efddfb 100%); */
     transition: all 0.3s ease-in-out;
   }
   .menu-btn span,
@@ -60,25 +56,17 @@
   }
   
   
-  .close {
-      z-index: 1;
-      width: 100%;
-      height: 100%;
-      pointer-events: none;
-      transition: background .6s;
-  }
-  
   /* closing animation */
   #active:checked + .menu-btn span {
       transform: scaleX(0);
   }
   #active:checked + .menu-btn:before {
       transform: rotate(45deg);
-    border-color: #fff;
+    border-color: rgb(4, 0, 0);
   }
   #active:checked + .menu-btn:after {
       transform: rotate(-45deg);
-    border-color: #fff;
+    border-color: rgb(2, 0, 0);
   }
   .wrapper ul{
     position: absolute;
@@ -163,4 +151,3 @@
      transition-delay: .6s;
     transform: translateX(-100px);
   }
-  
