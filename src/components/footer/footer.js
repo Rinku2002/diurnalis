@@ -1,28 +1,47 @@
 import React from 'react'
-import './footer.css'
+import './footer.css';
+import footerimage from '../../images/FOOTER.jpg';
 
 function Footer() {
   return (
-    <div className='bg-dark text-light' id='footer'>
-      <div className="footer p-5">
-        <div className="row justify-content-evenly">
+    // <div className='text-light' id='footer'>
+    //   <div className="footer p-5">
+    //     <div className="row justify-content-evenly">
+    //       <div className="col col-lg-6 col-md-6 col-sm-12 col-12">
+    //         <img className="imagefooter" src={footerimage}/>
+    //       </div>
+    //       <div className="col col-lg-6 col-md-6 col-sm-12 col-12">
+    //         <h3>Quick Links</h3>
+    //           <ul className='list-group'>
+    //             <a href="/"><li className='text-light p-2'>Home</li></a>
+    //             <a href="/articles"><li className='text-light p-2'>Articles</li></a>
+    //             <a href="/aboutus"><li className='text-light p-2'>About</li></a>
+    //           </ul>
+    //       </div>
+    //     </div>
+    //   </div>
+    // </div>
+    
+    <footer class="footer-distributed">
+<div class="footer-left d-block mx-auto">
 
-          <div className="col col-lg-6 col-md-6 col-sm-12 col-12">
-            <h1>Diurnalis</h1>
-            <p>Journalism club of VNRVJIET</p>
-          </div>
+<img className="imagefooter" src={footerimage}/>
+</div>
+			
+{/* <div class="footer-center">
 
-          <div className="col col-lg-6 col-md-6 col-sm-12 col-12">
-            <h3>Quick Links</h3>
-              <ul className='list-group'>
-                <a href="/"><li className='bg-dark text-light p-2'>Home</li></a>
-                <a href="/articles"><li className='bg-dark text-light p-2'>Articles</li></a>
-                <a href="/aboutus"><li className='bg-dark text-light p-2'>About</li></a>
-              </ul>
-          </div>
-        </div>
-      </div>
-    </div>
+<p className='contactheading'>Contact Us</p>
+<h6 className='text-light'>Compose us @ </h6>
+
+</div> */}
+<div className=''>
+  <p class="footer-links text-center m-0">
+      <a href="/" className='link-1'>Home</a>
+      <a href="/aboutus">About us</a>
+    </p>
+    <p className='text-light text-center'>&#169; 2022 Diurnalis - The Journalism Club, All rights reserved.</p>
+  </div>
+		</footer>
   )
 }
 

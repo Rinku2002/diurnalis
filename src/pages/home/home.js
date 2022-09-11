@@ -5,7 +5,7 @@ import './home.css'
 
 function Home() {
   return (
-    <>
+    <div className='mt'>
     <div className="body">
         <div className=''>
             <div className=' fw-bolder text-light d-flex flex-column justify-content-center align-items-center'>
@@ -18,9 +18,9 @@ function Home() {
         </div>
     </div>
     <div className='container d-flex align-items-center'>
-      <Desc/>
     </div>
-    </>
+    hello
+    </div>
   )
 }
 

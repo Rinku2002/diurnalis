@@ -1,16 +1,16 @@
-
 .body {
     background: linear-gradient(45deg, #a2d2ca 0%,#496269 29%,#4f4c4f 66%,#59382b 100%);
     background-size: 400% 400%;
 	animation: Gradient 15s ease infinite;
-	min-height: calc(100vh - 2rem);
+	/* min-height: calc(100vh - 2rem); */
+	height: 150px !important;
 	display: flex;
 	flex-direction: column;
 	align-items: stretch;
 	justify-content: space-evenly;
 	overflow: hidden;
 	position: relative; 
-    height: 100vh;
+    /* height: 100vh; */
 }
 
 .body::before, 
