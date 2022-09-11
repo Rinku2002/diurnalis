@@ -2,6 +2,10 @@ import React from 'react'
 import Desc from '../../components/desc/desc';
 // import Diurnalis from '../../images/Diurnalis.jpg';
 import './home.css'
+import Quickies from '../../components/quickies/quickies';
+import Elementsoftovnr from '../../components/elementsoftovnr/elementsoftovnr';
+import Shorts from '../../components/shorts/shorts';
+import News from '../../components/news/news';
 
 function Home() {
   return (
@@ -11,15 +15,21 @@ function Home() {
             <div className=' fw-bolder text-light d-flex flex-column justify-content-center align-items-center'>
                 <h1 className='mainHead display-1 text-light'>TIMES OF VNRVJIET</h1>
                 <p className='h6 text-light about'> - A Diurnalis's Publication</p>
-                {/* <img className='w25 rounded rounded-circle' src={Diurnalis}/> */}
-                <div className='d-flex flex-row-reverse'>
+                <div className='menuG d-flex flex-row w-100 justify-content-evenly pt-5'>
+                  <a className='menuO' href='#quickies'>Quickies</a>
+                  <a className='menuO' href='#shorts'>Shorts</a>
+                  <a className='menuO' href='#featured'>Featured!</a>
                 </div>
             </div>
         </div>
     </div>
-    <div className='container d-flex align-items-center'>
+    {/* <div className='container d-flex align-items-center'>
       <Desc/>
-    </div>
+    </div> */}
+    <Quickies/>
+    <Shorts/>
+    <News/>
+    <Elementsoftovnr/>
     </>
   )
 }

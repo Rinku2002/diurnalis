@@ -4,7 +4,7 @@ import Logo from '../../images/Diurnalis.jpg';
 
 function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <nav className="navbar navbar-expand-lg navbar-light bg">
         <div className="container-fluid">
             <a className="nav-link active" aria-current="page" href="/">
                 <img className='w100 rounded rounded-circle' src={Logo} alt='Logo' />

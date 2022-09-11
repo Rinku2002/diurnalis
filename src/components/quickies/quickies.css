@@ -1,0 +1,19 @@
+.mw1000{
+    max-width: 650px;
+    color: white;
+}
+.bg-blue{
+    background-color: #80c2ff;
+}
+hr.hr1{
+    border: 2px solid white;
+}
+.info{
+    color: yellow;
+}
+.pt{
+    padding-top: 100px;
+}
+#quickies{
+    font-family: 'K2D', sans-serif;
+}
