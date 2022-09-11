@@ -1,10 +1,10 @@
 .arrow{
 	position: fixed;
 	bottom: 5px;
-	left: 50%;
+	left: 97%;
 }
 .arrowIcon{
-	font-size: 50px;
+	font-size: 40px;
 	color: white;
 	position: relative;
 	left: -50%;
@@ -18,4 +18,8 @@
 	.arrowIcon{
 		left: 15%;
 	}
+}
+
+.mt{
+    margin-top: 100px !important;
 }

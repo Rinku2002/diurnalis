@@ -1,12 +1,18 @@
-.navbar{
-    position: fixed;
-    top: 0;
+.first{
+    position: fixed !important;
+    top: 0 !important;
     width: 100vw;
     z-index: 1000;
 }
 .w100{
-    width: 60px;
+    width: 50px;
 }
 .bg{
     background-color: rgba(255, 255, 255, 0.822);
+    width: 40px;
+}
+@media only screen and (max-width: 500px) {
+    .navHead{
+        display: none;
+    }
 }

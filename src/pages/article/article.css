@@ -1,0 +1,20 @@
+.mw{
+    max-width: 1000px;
+}
+.mwi{
+    max-width: 400px;
+}
+.loading{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+}
+.loadingImg{
+    width: 200px;
+    position: relative;
+    top: -100px;
+    left: -100px;
+}
+.article{
+    min-height: 100vh;
+}

@@ -1,5 +1,4 @@
 import React from 'react'
-import Desc from '../../components/desc/desc';
 // import Diurnalis from '../../images/Diurnalis.jpg';
 import './home.css'
 import Quickies from '../../components/quickies/quickies';
@@ -9,11 +8,11 @@ import News from '../../components/news/news';
 
 function Home() {
   return (
-    <>
+    <div className=''>
     <div className="body">
         <div className=''>
             <div className=' fw-bolder text-light d-flex flex-column justify-content-center align-items-center'>
-                <h1 className='mainHead display-1 text-light'>TIMES OF VNRVJIET</h1>
+                <h1 className='mainHead display-1 text-light mt'>TIMES OF VNRVJIET</h1>
                 <p className='h6 text-light about'> - A Diurnalis's Publication</p>
                 <div className='menuG d-flex flex-row w-100 justify-content-evenly pt-5'>
                   <a className='menuO' href='#quickies'>Quickies</a>
@@ -23,14 +22,13 @@ function Home() {
             </div>
         </div>
     </div>
-    {/* <div className='container d-flex align-items-center'>
-      <Desc/>
-    </div> */}
+
     <Quickies/>
     <Shorts/>
     <News/>
     <Elementsoftovnr/>
-    </>
+
+  </div>
   )
 }
 

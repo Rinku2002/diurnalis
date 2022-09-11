@@ -19,10 +19,10 @@ function News() {
             <div className='mx-auto row'>
                     {
                         d.map((v,index)=>
-                            <div onClick={()=>navigate(`article?id=${v._id}`)} className='col col-lg-4 col-md-6 col-sm-12 col-12' key={index}>
-                                <div className='m-5 p-2 d-flex flex-column align-items-center'>
+                            <div onClick={()=>navigate(`article?id=${v._id}`)} className='col col-lg-4 col-md-6 col-sm-12 col-12 cursorPointer' key={index}>
+                                <div className='mx-5 p-2 d-flex flex-column align-items-center'>
                                     <div className='d-flex align-items-center wh'>
-                                        <img className='w-100 rounded rounded-5' src={v.src} />
+                                        <img className='w-100 rounded rounded-5' src={v.src} alt={`news-${index+1}`} />
                                     </div>
                                     <h5 className='p-2'>{v.title}</h5>
                                 </div>

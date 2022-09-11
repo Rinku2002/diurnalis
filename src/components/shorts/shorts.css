@@ -7,3 +7,9 @@
 .mh100{
     min-height: 100vh;
 }
+.shortsImg{
+    width: 300px !important;
+    height: 300px !important;
+    display: flex;
+    align-items: center;
+}
